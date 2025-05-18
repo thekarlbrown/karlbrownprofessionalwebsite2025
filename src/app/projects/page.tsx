@@ -6,8 +6,8 @@ export default function ProjectsPage() {
     <div className={styles['projects-container']}>
       <h1>Projects</h1>
       <p className={styles['intro-text']}>
-        I only write code that makes money, so I don't have many public projects to showcase. 
-        Feel free to reach out if you want to learn more about what I've been doing in the last few years.
+        I only write code that makes money, so I don&apos;t have many public projects to showcase. 
+        Feel free to reach out if you want to learn more about what I&apos;ve been doing in the last few years.
       </p>
 
       <h2>Core Skillset</h2>

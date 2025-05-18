@@ -4,15 +4,7 @@ import "./globals.scss";
 import MatrixHeader from "../components/MatrixHeader";
 import "../components/MatrixHeader.module.scss";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "The Karl Brown",

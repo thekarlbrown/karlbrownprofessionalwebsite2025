@@ -1,11 +1,18 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from './page.module.scss';
 
 export default function AboutPage() {
   return (
     <div className={styles['about-container']}>
       <div className={styles['profile-image']}>
-        <img src="/face.jpg" alt="Profile" />
+        <Image
+          src="/face.jpg"
+          alt="Profile"
+          width={200}
+          height={200}
+          className={styles['profile-image']}
+        />
       </div>
       <h1>About</h1>
       <div className={styles['about-grid']}>

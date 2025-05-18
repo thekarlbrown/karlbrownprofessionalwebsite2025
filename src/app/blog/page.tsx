@@ -30,11 +30,11 @@ const blogPosts: BlogPost[] = [
       <ul>
         <li>Each round, each player takes turns rolling five dice.</li>
         <li>You receive one point for rolling a 1 and .5 points for rolling a 5.</li>
-        <li>If you roll 3 of a kind, you receive the number rolled in points (Three 3's are worth three points) unless you roll three 1's, which gives you 10 points.</li>
+        <li>If you roll 3 of a kind, you receive the number rolled in points (Three 3&apos;s are worth three points) unless you roll three 1's, which gives you 10 points.</li>
         <li>4 of a kind count for double those values, 5 of a kind count for quadruple those values.</li>
         <li>You can reroll any non-scoring dice, and any amount of scoring dice as long as at least one scoring die remains from that roll.</li>
         <li>If you ever do not roll any points, you get zero points for the round and it becomes the next player's turn.</li>
-        <li>If you have 5 scoring dice, you can choose to keep those points and re-roll 5 new dice, but if you don't roll a single scoring die on any subsequent rolls, you still receive zero points for the round.</li>
+        <li>If you have 5 scoring dice, you can choose to keep those points and re-roll 5 new dice, but if you don&apos;t roll a single scoring die on any subsequent rolls, you still receive zero points for the round.</li>
       </ul>
       <p>
         General tactics for Greed include deciding how riskily to play based on how many points you have compared to your opponent(s) and, in general, deciding when to take risks. With this in mind, I started thinking about how to best write this algorithm and realized that the best approach would be to isolate point values at which a certain decision would switch from being a favorable risk to an unfavorable risk. For example, how many points do you have to have before it becomes unwise to re-roll 4 available non-scoring dice?
