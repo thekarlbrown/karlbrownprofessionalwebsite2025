@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+:root {
+  --matrix-bg: #000;
+  --matrix-text: #00ff00;
+  --matrix-accent: #00cc00;
+  --matrix-shadow: rgba(0, 255, 0, 0.1);
+}
+
+* {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+body {
+  background-color: #000;
+}

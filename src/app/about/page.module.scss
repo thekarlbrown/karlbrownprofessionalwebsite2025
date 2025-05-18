@@ -1,0 +1,85 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem;
+  background: var(--matrix-bg);
+  color: var(--matrix-text);
+  font-family: 'Courier New', monospace;
+}
+
+.about-container h1, .about-container h2, .about-container h3 {
+  color: var(--matrix-accent);
+  text-shadow: 0 0 10px var(--matrix-shadow);
+  margin-bottom: 1.5rem;
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.profile-image {
+  text-align: center;
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 20px var(--matrix-shadow);
+  }
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--matrix-shadow);
+  padding-bottom: 0.5rem;
+}
+
+.about-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-container li {
+  margin-bottom: 1.5rem;
+  color: var(--matrix-text);
+  font-size: 1.1rem;
+  text-shadow: 0 0 5px var(--matrix-shadow);
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.about-container li::before {
+  content: '•';
+  color: var(--matrix-accent);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.about-container a {
+  color: var(--matrix-accent);
+  text-decoration: none;
+  text-shadow: 0 0 5px var(--matrix-shadow);
+  transition: text-shadow 0.3s ease;
+}
+
+.about-container a:hover {
+  text-shadow: 0 0 10px var(--matrix-shadow);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 2rem;
+  }
+}
