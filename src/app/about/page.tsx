@@ -9,6 +9,7 @@ export default function AboutPage() {
         <Image
           src="/face.jpg"
           alt="Profile"
+          unoptimized={true}
           width={200}
           height={200}
           className={styles['profile-image']}
