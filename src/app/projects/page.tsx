@@ -41,7 +41,8 @@ export default function ProjectsPage() {
           <ul>
             <li>NodeJS</li>
             <li>Python</li>
-            <li>SQL</li>
+            <li>Bash</li>
+            <li>SQL/MongoDB</li>
             <li>AWS</li>
             <li>Terraform</li>
             <li>Github Actions</li>
