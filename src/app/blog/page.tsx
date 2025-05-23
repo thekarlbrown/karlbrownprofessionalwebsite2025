@@ -9,7 +9,7 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "The Sponge Tool: Oracle's Nature of Junior, Mid-Level, and Senior Roles",
+    title: "The Sponge, The Tool, and The Oracle: The Nature of Junior, Mid-Level, and Senior Roles",
     date: "February 2020",
     content: <>
       <p>
